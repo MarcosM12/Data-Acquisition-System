@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<event>
+<situation> EV </situation>
+   <temperature> 56 </temperature>
+   <humidity> 516 </humidity>
+   <wind_velocity> 221 </wind_velocity>
+</event>
+<event>
+<situation> EV </situation>
+   <temperature> 90 </temperature>
+   <humidity> 516 </humidity>
+   <wind_velocity> 221 </wind_velocity>
+</event>
+<event>
+<situation> EM2 </situation>
+   <temperature> 76 </temperature>
+   <humidity> 10 </humidity>
+   <wind_velocity> 634 </wind_velocity>
+</event>
