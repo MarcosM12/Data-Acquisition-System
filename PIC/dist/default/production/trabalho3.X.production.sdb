@@ -1,0 +1,608 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"505 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"43 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"13 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\EEPROM_ext.c
+[v _i2cSetup i2cSetup `(v  1 e 1 0 ]
+"21
+[v _i2c_Wait i2c_Wait `(v  1 e 1 0 ]
+"25
+[v _i2c_Start i2c_Start `(v  1 e 1 0 ]
+"30
+[v _i2c_Restart i2c_Restart `(v  1 e 1 0 ]
+"35
+[v _i2c_Stop i2c_Stop `(v  1 e 1 0 ]
+"40
+[v _i2c_Write i2c_Write `(uc  1 e 1 0 ]
+"48
+[v _i2c_Read i2c_Read `(uc  1 e 1 0 ]
+"58
+[v _i2c_ACK i2c_ACK `(v  1 e 1 0 ]
+"64
+[v _i2c_NACK i2c_NACK `(v  1 e 1 0 ]
+"106
+[v _EEPROM_Write_Page EEPROM_Write_Page `(v  1 e 1 0 ]
+"123
+[v _EEPROM_Read_Page EEPROM_Read_Page `(*.4uc  1 e 1 0 ]
+"39 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\main.c
+[v _uartSendChar uartSendChar `(v  1 e 1 0 ]
+"46
+[v _uartSendString uartSendString `(v  1 e 1 0 ]
+"54
+[v _usartSetup usartSetup `(v  1 e 1 0 ]
+"66
+[v _adcSetup adcSetup `(v  1 e 1 0 ]
+"71
+[v _PWMSetup PWMSetup `(v  1 e 1 0 ]
+"81
+[v _PWMDuty PWMDuty `(v  1 e 1 0 ]
+"91
+[v _timer timer `II(v  1 e 1 0 ]
+"131
+[v _buzzer buzzer `(v  1 e 1 0 ]
+"144
+[v _valuefromSensor valuefromSensor `(ui  1 e 2 0 ]
+"152
+[v _sendMessage sendMessage `(v  1 e 1 0 ]
+"159
+[v _main main `(i  1 e 2 0 ]
+[s S325 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[u S334 . 1 `S325 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES334  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S188 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295
+[u S197 . 1 `S188 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES197  1 e 1 @7 ]
+[s S272 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477
+[s S281 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S286 . 1 `S272 1 . 1 0 `S281 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES286  1 e 1 @11 ]
+[s S23 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"549
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES32  1 e 1 @12 ]
+"641
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"648
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"655
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+[s S130 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"758
+[s S134 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S142 . 1 `S130 1 . 1 0 `S134 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES142  1 e 1 @18 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"892
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+[s S158 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+"924
+[s S162 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+]
+[u S167 . 1 `S158 1 . 1 0 `S162 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES167  1 e 1 @23 ]
+[s S82 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"994
+[s S91 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S95 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S98 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S101 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S95 1 . 1 0 `S98 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES101  1 e 1 @24 ]
+"1059
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+[s S230 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S239 . 1 `S230 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES239  1 e 1 @134 ]
+[s S251 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S260 . 1 `S251 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES260  1 e 1 @135 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1816
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S45 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2025
+[s S54 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S58 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S61 . 1 `S45 1 . 1 0 `S54 1 . 1 0 `S58 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES61  1 e 1 @152 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2374
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2377
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2380
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2452
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"2455
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"2578
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2605
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2632
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2737
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2743
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2791
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2806
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2824
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2881
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"3037
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"358 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"23 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\main.c
+[v _count count `l  1 e 4 0 ]
+"24
+[v _veloc veloc `i  1 e 2 0 ]
+"25
+[v _old_Veloc old_Veloc `i  1 e 2 0 ]
+"27
+[v _send send `i  1 e 2 0 ]
+[v _s s `i  1 e 2 0 ]
+[v _received received `i  1 e 2 0 ]
+[v _start start `i  1 e 2 0 ]
+"28
+[v _em1 em1 `i  1 e 2 0 ]
+[v _em2 em2 `i  1 e 2 0 ]
+"159
+[v _main main `(i  1 e 2 0 ]
+{
+"215
+[v main@name name `uc  1 a 1 19 ]
+"204
+[v main@hum hum `i  1 a 2 20 ]
+"203
+[v main@temp temp `i  1 a 2 17 ]
+"182
+[v main@teste teste `[6]uc  1 a 6 3 ]
+"198
+[v main@rajada rajada `i  1 a 2 15 ]
+[v main@param_hum param_hum `i  1 a 2 13 ]
+[v main@param_vel param_vel `i  1 a 2 11 ]
+[v main@param_temp param_temp `i  1 a 2 9 ]
+"295
+} 0
+"144
+[v _valuefromSensor valuefromSensor `(ui  1 e 2 0 ]
+{
+[v valuefromSensor@channel channel `ui  1 p 2 4 ]
+"150
+} 0
+"54
+[v _usartSetup usartSetup `(v  1 e 1 0 ]
+{
+"64
+} 0
+"152
+[v _sendMessage sendMessage `(v  1 e 1 0 ]
+{
+"153
+[v sendMessage@temp_buf temp_buf `[90]uc  1 a 90 0 ]
+"152
+[v sendMessage@temp temp `i  1 p 2 32 ]
+[v sendMessage@humidade humidade `i  1 p 2 34 ]
+[v sendMessage@velVent velVent `i  1 p 2 36 ]
+[v sendMessage@situation situation `*.24uc  1 p 1 38 ]
+"157
+} 0
+"46
+[v _uartSendString uartSendString `(v  1 e 1 0 ]
+{
+"47
+[v uartSendString@i i `i  1 a 2 5 ]
+"46
+[v uartSendString@str str `*.39uc  1 p 2 0 ]
+"52
+} 0
+"39
+[v _uartSendChar uartSendChar `(v  1 e 1 0 ]
+{
+[v uartSendChar@data data `uc  1 a 1 wreg ]
+[v uartSendChar@data data `uc  1 a 1 wreg ]
+"41
+[v uartSendChar@data data `uc  1 a 1 4 ]
+"44
+} 0
+"505 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.5uc  1 a 1 wreg ]
+"545
+[v sprintf@val val `ui  1 a 2 28 ]
+"547
+[v sprintf@cp cp `*.26DCuc  1 a 2 26 ]
+"512
+[v sprintf@c c `uc  1 a 1 31 ]
+"507
+[v sprintf@ap ap `[1]*.4v  1 a 1 25 ]
+"521
+[v sprintf@prec prec `c  1 a 1 24 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 23 ]
+"505
+[v sprintf@sp sp `*.5uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 11 ]
+"550
+[v sprintf@sp sp `*.5uc  1 a 1 30 ]
+"1567
+} 0
+"5 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"13 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\EEPROM_ext.c
+[v _i2cSetup i2cSetup `(v  1 e 1 0 ]
+{
+[v i2cSetup@baud baud `DCul  1 p 4 13 ]
+"19
+} 0
+"5 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"131 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\main.c
+[v _buzzer buzzer `(v  1 e 1 0 ]
+{
+"138
+} 0
+"66
+[v _adcSetup adcSetup `(v  1 e 1 0 ]
+{
+"69
+} 0
+"71
+[v _PWMSetup PWMSetup `(v  1 e 1 0 ]
+{
+"79
+} 0
+"81
+[v _PWMDuty PWMDuty `(v  1 e 1 0 ]
+{
+[v PWMDuty@duty duty `ui  1 p 2 76 ]
+"89
+} 0
+"10 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 75 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 74 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 66 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S838 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S843 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S846 . 4 `l 1 i 4 0 `d 1 f 4 0 `S838 1 fAsBytes 4 0 `S843 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S846  1 a 4 60 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 55 ]
+[s S915 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S918 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S915 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S918  1 a 2 64 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 59 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 54 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 53 ]
+"8
+[v ___flmul@b b `d  1 p 4 40 ]
+[v ___flmul@a a `d  1 p 4 44 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 4 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 2 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 4 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 6 ]
+"60
+} 0
+"8 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 34 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 27 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 32 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 39 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 38 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 31 ]
+"8
+[v ___fldiv@a a `d  1 p 4 14 ]
+[v ___fldiv@b b `d  1 p 4 18 ]
+"185
+} 0
+"106 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\EEPROM_ext.c
+[v _EEPROM_Write_Page EEPROM_Write_Page `(v  1 e 1 0 ]
+{
+"115
+[v EEPROM_Write_Page@i i `ui  1 a 2 7 ]
+"114
+[v EEPROM_Write_Page@len len `ui  1 a 2 5 ]
+"106
+[v EEPROM_Write_Page@add add `i  1 p 2 2 ]
+[v EEPROM_Write_Page@data data `*.24uc  1 p 1 4 ]
+"119
+} 0
+"4 C:\Program Files (x86)\Microchip\MPLABX\v2.20\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.26DCuc  1 a 2 0 ]
+"4
+[v strlen@s s `*.26DCuc  1 p 2 4 ]
+"13
+} 0
+"123 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\EEPROM_ext.c
+[v _EEPROM_Read_Page EEPROM_Read_Page `(*.4uc  1 e 1 0 ]
+{
+"135
+[v EEPROM_Read_Page@i i `ui  1 a 2 5 ]
+"123
+[v EEPROM_Read_Page@add add `i  1 p 2 0 ]
+[v EEPROM_Read_Page@data data `*.4uc  1 p 1 2 ]
+[v EEPROM_Read_Page@len len `i  1 p 2 3 ]
+"143
+} 0
+"40
+[v _i2c_Write i2c_Write `(uc  1 e 1 0 ]
+{
+[v i2c_Write@data data `uc  1 a 1 wreg ]
+[v i2c_Write@data data `uc  1 a 1 wreg ]
+[v i2c_Write@data data `uc  1 a 1 4 ]
+"46
+} 0
+"35
+[v _i2c_Stop i2c_Stop `(v  1 e 1 0 ]
+{
+"38
+} 0
+"25
+[v _i2c_Start i2c_Start `(v  1 e 1 0 ]
+{
+"28
+} 0
+"30
+[v _i2c_Restart i2c_Restart `(v  1 e 1 0 ]
+{
+"33
+} 0
+"48
+[v _i2c_Read i2c_Read `(uc  1 e 1 0 ]
+{
+"56
+} 0
+"58
+[v _i2c_ACK i2c_ACK `(v  1 e 1 0 ]
+{
+"62
+} 0
+"21
+[v _i2c_Wait i2c_Wait `(v  1 e 1 0 ]
+{
+"23
+} 0
+"91 D:\Users\Marcos\Documents\Faculdade\SAD\Trabalho pr¨¢tico 3\trabalho3.X\main.c
+[v _timer timer `II(v  1 e 1 0 ]
+{
+"103
+[v timer@countTimer1 countTimer1 `i  1 a 2 2 ]
+"129
+} 0
